@@ -100,8 +100,7 @@ odd or even
  
  Rising star 5 lines
  
-         #include <iostream>
-        #include <string>
+        #include <iostream>
         using namespace std;
         int main()
         {
@@ -114,3 +113,45 @@ odd or even
                 cout << endl;  
             }
         }
+
+Falling stars
+
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        for (int i = 1; i <= 5; i++)
+        {
+            for (int j = i; j < 5; j++)
+            {
+                cout << "*";
+            }
+            cout << endl;
+        }
+    }
+
+rising and falling stars
+
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        for(int i = 1; i <=5; i++)
+        { 
+            for(int j = 1; j <=i; j++)
+            {
+                cout << "*"; 
+            }
+            cout << endl;  
+        }
+        for (int i = 1; i <= 5; i++)
+        {
+            for (int j = i; j < 5; j++)
+            {
+                cout << "*";
+            }
+            cout << endl;
+        }
+
+    }
+    
