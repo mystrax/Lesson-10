@@ -155,3 +155,45 @@ rising and falling stars
 
     }
     
+Cube 
+
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        int r;
+        cout << "Enter a number to find the cube" << endl;
+        cin >> r;
+        for (int x = 1; x <= r; x++)
+        {
+            cout << "\nNumber is " << x << " the cube is ";
+            int y = x;
+            y=y* y* y;
+            cout << y;
+        }
+
+    }
+
+9s
+
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        int sum = 0;
+
+        for (int x = 100; x <= 200; x++)
+        {
+            if (x % 9 == 0)
+            {
+                cout << "\nNumber is " << x << endl;
+
+                sum = sum + x;
+
+                        }
+
+
+        }
+        cout << "The sum is " << sum << endl;
+    }
+
